@@ -19,8 +19,8 @@ export class FirestoreDbService {
             ...doc.payload.doc.data()});
           
           return {
-            id: doc.payload.doc.id,
-            ...doc.payload.doc.data()
+            id: doc.payload.doc.id
+            /*...doc.payload.doc.data()*/
           }
         })
       })
